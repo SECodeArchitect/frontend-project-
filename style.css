@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #2C2521;
+    color: white;
+}
+.heading{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.heading2{
+    font-size: 23px;
+}
+.heading3{
+    font-size: 23px;
+}
+.profile-pic{
+     width: 100px;
+    height: 100px;
+    object-fit: cover; /*ya picture ko circle ka ander without cut howa fit kar da ga */
+    border-radius: 50%;
+}
+.container-body{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 100px;
+} 
+.container1{
+    width: 30%;
+} 
+.container2{
+    width: 30%;
+}
+strong{
+    color: #A9A8A7;
+}
+.center-line{
+    width: 1px;
+    height: 380px;
+    background-color: #777777;
+}
+
+@media(min-width:360px) and (max-width:1015px ) {
+    .heading2 {
+        font-size: 12px;
+    }
+    .heading3{
+        font-size: 12px;
+    }
+    .heading h1{
+        font-size: 20px;
+    }
+     section.container {
+  
+       display: flex;
+        flex-direction: column;   
+        justify-content: center;   
+        align-items: center;       
+        gap: 30px;                
+        
+        padding: 40px 20px;        
+        min-height: 100vh;         
+        box-sizing: border-box;
+  }
+   div.center-line {
+    height: 400px;
+  }
+  
+    .heading2, .heading3, .heading, div.center-line {
+        margin: 0;                
+    }
+   
+}
+
+  @media (min-width:500px) and (max-width:1000px) {
+
+   
+  .heading2 {
+        font-size: 16px;
+    }
+    .heading3{
+        font-size: 16px;
+    }
+    div.center-line{
+        height: 400px;
+    }
+}
